@@ -885,7 +885,7 @@ export default function Home() {
               <label className="text-xs text-slate-500 w-20 shrink-0">Base URL</label>
               <input
                 type="text"
-                placeholder="https://api.anthropic.com (optional)"
+                placeholder="https://api.openai.com/v1/chat/completions"
                 value={baseURL}
                 onChange={(e) => setBaseURL(e.target.value)}
                 className="flex-1 text-xs bg-white border border-slate-200 rounded-lg px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-300 text-slate-700 placeholder-slate-300"
@@ -896,7 +896,7 @@ export default function Home() {
               <label className="text-xs text-slate-500 w-20 shrink-0">Model</label>
               <input
                 type="text"
-                placeholder="gpt-4o"
+                placeholder="gpt-5.1"
                 value={model}
                 onChange={(e) => setModel(e.target.value)}
                 className="flex-1 text-xs bg-white border border-slate-200 rounded-lg px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-300 text-slate-700 placeholder-slate-300"
